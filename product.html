@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb" class="mt-3 ml-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active">Products</li>
+    </ol>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Left Pane - Categories -->
+      <div class="col-md-3">
+        <h5>Categories</h5>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#cat1">Electronics</button></h5>
+            </div>
+            <div id="cat1" class="collapse" data-parent="#accordion">
+              <div class="card-body">I Phones</div>
+            </div>
+          </div>
+        </div>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#cat1">Electronics</button></h5>
+            </div>
+            <div id="cat1" class="collapse" data-parent="#accordion">
+              <div class="card-body">Watch</div>
+            </div>
+          </div>
+        </div>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#cat1">Electronics</button></h5>
+            </div>
+            <div id="cat1" class="collapse" data-parent="#accordion">
+              <div class="card-body">Laptops</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Pane - Products -->
+      <div class="col-md-9">
+        <h4>All Products</h4>
+        <div class="card-deck">
+          <div class="card"><img src="iphone-16-pro.jpeg" class="card-img-top"><div class="card-body"><h5 class="card-title">Item 1</h5></div></div>
+          <div class="card"><img src="iphone-16-pro.jpeg" class="card-img-top"><div class="card-body"><h5 class="card-title">Item 2</h5></div></div>
+          <div class="card"><img src="iphone-16-pro.jpeg" class="card-img-top"><div class="card-body"><h5 class="card-title">Item 3</h5></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
